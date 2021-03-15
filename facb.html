@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF_8">
+        <title>facebook</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:white;
+        }
+        .login{
+            width: 360px;
+            background: #f1f1f1;
+        }
+        .login{
+            width: 360px;
+            background:blue;
+            height: 500px;
+            padding: 80px 40px;
+            border-radius: 10px;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%);
+        }
+        .filed{
+            border-bottom: 2px solid #adadad;
+            position: relative;      
+            margin: 30px 0;
+        }
+        .filed p{
+            color: darkgray;
+        }
+        .filed input{
+            font-size: 15px;
+            color: #333;
+            border:none;
+            width: 100%;
+            outline: none;
+            background: none;
+            padding: 0 5px;
+            height: 40px;
+        }
+        .log{
+            display: block;
+            width: 100%;
+            height: 50px;
+            border: none;
+            background: blue;
+            background-size: 20%;
+            color: white;
+            cursor: pointer;
+        }
+        .login a{
+            color: black;
+        }
+        .login h4{
+            text-align: center;
+            margin-bottom: 50px;
+            background:white;
+            margin: 20px;
+        }
+    </style>
+    <body>
+        <form action="index.html" class="login">
+        <div class="filed">
+            <input type="text">
+            <p>Phone or email</p>
+        </div>
+        <div class="filed">
+            <input type="password">
+            <p>Passowrd</p>
+        </div>
+        <input type="submit" class="log" value="log in">
+        <h4><a href="Forget Passowrd">Forget Passowrd?</a></h4>
+        </form>
+    </body>
+</html>
